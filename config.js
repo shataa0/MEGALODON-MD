@@ -14,7 +14,7 @@ module.exports = {
     //chatbot on/off
   
     SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~7Y10EarT#NxoOs1kNtMlI6Oj33G3F3KlqHmzcsa_S_n7cr8DsH54",
-    PREFIX: getConfig("PREFIX") || "~",  // Command prefix (e.g., "., / ! * - +")
+    PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MEGALODON-MD",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     // ===== OWNER & DEVELOPER SETTINGS =====
